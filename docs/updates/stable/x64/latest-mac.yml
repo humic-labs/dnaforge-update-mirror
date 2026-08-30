@@ -1,0 +1,8 @@
+version: 0.8.2
+files:
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.2/DNAForge-0.8.2-mac.zip
+    sha512: 5KjYispbvj81WFL7YJuJBhxId8nJWzAi/Tq1YcHI+0NT4no9hiMisJeY7+T6q3uVsJRC8iV0FS1rZ0aXPCoTTg==
+    size: 545820015
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.2/DNAForge-0.8.2-mac.zip
+sha512: 5KjYispbvj81WFL7YJuJBhxId8nJWzAi/Tq1YcHI+0NT4no9hiMisJeY7+T6q3uVsJRC8iV0FS1rZ0aXPCoTTg==
+releaseDate: 2026-08-29T19:54:24.688Z
