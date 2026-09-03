@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "rollback",
+  "phase": "canary",
+  "attemptId": "33759968037-1",
+  "version": "0.8.5",
+  "tag": "v0.8.5",
+  "sourceCommit": "322aa1963a8942466b67ac463fc9f70466793932",
+  "mirrorRepository": "humic-labs/dnaforge-update-mirror",
+  "mirrorRepositoryDatabaseId": 1350993163,
+  "mirrorParentCommit": "acc86ba37c4fb5e4cfe376929c3e63df1ea903e0",
+  "createdAt": "2026-09-03T13:33:03.435Z",
+  "activeReceiptBindingSha256": "8cb77c6ee952a9a6dffb131c1d52bef501ed9a96d1380b9e17ad8c8a51257970",
+  "cohortMode": "steady-state",
+  "canaryPercentage": 0,
+  "rolloutIdSha256": "2f9d2d84fd76f7d2df7542f0a8dd5c25fd10f1d7ca5f9a9ddc3042c74a5dc9bf",
+  "predecessorCapabilityReceiptSha256": "3cb432d7802e49261ce80344a820a4e6ea79eb54ae64707db606317bf127e46f",
+  "predecessorOverrideCapability": "present",
+  "artifactDigests": [
+    {
+      "name": "DNAForge-0.8.5-arm64-mac.zip",
+      "size": 521462781,
+      "sha256": "35d7ccf7259a7fc5515aff8461c531d1fa058163dd3b62c921b37243f8f4871b",
+      "sha512": "moT86KdIZpIADgsTo0ao6hq6MjBBRtXpzTLSHKJba9N38ueZxX5r23LRTcbilfGSAetbB8d4RNdAEJtUmk4t0g=="
+    },
+    {
+      "name": "DNAForge-0.8.5-arm64-mac.zip.blockmap",
+      "size": 535298,
+      "sha256": "ed5e92e4f064048576e55c80245433f3de06b82118e3b31e05020850ed8990ae",
+      "sha512": "zxvODxMvDcMhM2Q5rURvB2d3F45NbFfx+5Ka3GGfWIeoK3v1qGS92EecZL8U8hjI624CG7FUVeRq1D47Wv1Bfw=="
+    },
+    {
+      "name": "DNAForge-0.8.5-mac.zip",
+      "size": 546363269,
+      "sha256": "4ddd36134f73f76777512b51015f75d10e7a7bfd37e02a8870c8a0b1c85f0de4",
+      "sha512": "DpNZRZpk4p/zKv+EFIIEMtdeQ/ND/g8d/3BMqJkKHE9sgOdRi4QyXl/bh7caBFOGKmQ7xqgTkHVRc2g9fworuA=="
+    },
+    {
+      "name": "DNAForge-0.8.5-mac.zip.blockmap",
+      "size": 566799,
+      "sha256": "ba1c038d9c1415eb49a6bf3028e869e9d60dd4474c6ce3abac0f9f9e9c06a71b",
+      "sha512": "p7iZdRL2sA//5Y8/ecMUp5T/Pnid4RvdO4lvZ/5VQylSeVIGqlrr5RypL8SxE2SYDt8cMeEe/Djy/3prfHj/Ew=="
+    },
+    {
+      "name": "DNAForge-Setup-0.8.5.exe",
+      "size": 433943728,
+      "sha256": "02151075fc8c9a4d8f9d59c2ebd18d6b13a1e957518403bfaea2e6553065b466",
+      "sha512": "rOE2ZeC+d51JM+YeYjZB2sMihR0uaiEkdf5AoRy6jxKk+ATdn/iduaq17jksQ8bt4qOX/TRrs1zFaltZXwuX6w=="
+    },
+    {
+      "name": "DNAForge-Setup-0.8.5.exe.blockmap",
+      "size": 452575,
+      "sha256": "1061c5300ce2ca244ce4066ddf52b3d7207847837f1a5808437a035caf553a31",
+      "sha512": "Gk3eNf8gmaOfuI/qhm4asstOTxchOlpZKNQnhpm0IiYHl/18IVjUOYX2HjFmkOIfUgiCliYBPTpZ3yTZSfzoCA=="
+    }
+  ],
+  "versionedManifestDigests": [
+    {
+      "name": "latest-mac-arm64.yml",
+      "size": 507,
+      "sha256": "e3530032292eeae0ce7f35e1b6582bdbe2ada53c0c52c0da61a2cb6ccf1593be",
+      "sha512": "0WNQ0cDK9AU3Z0i5oDLKeoAvW/j7IkF8Z18sSPbrae6KZb2KP5iUaFebo6LFtr6QV5Y559yvLS4Ei0bjSsV0zA==",
+      "payloadName": "DNAForge-0.8.5-arm64-mac.zip",
+      "payloadUrl": "https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.5/DNAForge-0.8.5-arm64-mac.zip"
+    },
+    {
+      "name": "latest-mac-x64.yml",
+      "size": 495,
+      "sha256": "667bcda56d715adbf4086d418be62f0ea614202fcdb203d55d2f52bff335439a",
+      "sha512": "Phi6Uqj9/dy1r/QOUugD3THaduLne1p35MpWBKKCqw9MuvcJOqH5KEeTNHql3ueCuH6VMYiHCftpUCeHOIr4Yw==",
+      "payloadName": "DNAForge-0.8.5-mac.zip",
+      "payloadUrl": "https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.5/DNAForge-0.8.5-mac.zip"
+    },
+    {
+      "name": "latest.yml",
+      "size": 499,
+      "sha256": "8a33c323d3cf7b636cbb1cb81a484d7ced0ebd11a89612a53e2b07ab93499115",
+      "sha512": "//55/UFmREOghKqmkqx8NKj9TI8yVjDQAz5JQo65j8KJG09jXz+z5QYyXCxrKDjwBMyAmcG2gdEGJa/PrhIX9w==",
+      "payloadName": "DNAForge-Setup-0.8.5.exe",
+      "payloadUrl": "https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.5/DNAForge-Setup-0.8.5.exe"
+    }
+  ],
+  "priorManifests": [
+    {
+      "path": "docs/updates/stable/arm64/latest-mac.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjMKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLTAuOC4zLWFybTY0LW1hYy56aXAKICAgIHNoYTUxMjogdGhWTHVsbSs0OXg0QkVRU1ZNdmphZlU1cXpaWnh3Z05aa3ZPak5kMGt0K1VSNFpLWHA4OUl1UnhOTjZ2RVBXRTQwL2l0KytEaWV5QXdlTU53V1N6cmc9PQogICAgc2l6ZTogNTIwODY1ODY0CnBhdGg6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLTAuOC4zLWFybTY0LW1hYy56aXAKc2hhNTEyOiB0aFZMdWxtKzQ5eDRCRVFTVk12amFmVTVxelpaeHdnTlprdk9qTmQwa3QrVVI0WktYcDg5SXVSeE5ONnZFUFdFNDAvaXQrK0RpZXlBd2VNTndXU3pyZz09CnJlbGVhc2VEYXRlOiAyMDI2LTA4LTMxVDAyOjA3OjQ5LjMyM1oK",
+      "sha256": "18384b0eba52921a2e35d9b50bd1e57e01da00b220a65ea6cda3b0bd9dd8615c"
+    },
+    {
+      "path": "docs/updates/stable/arm64/latest.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjMKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLVNldHVwLTAuOC4zLmV4ZQogICAgc2hhNTEyOiBUZGk2Mml0YmVQTUtaNUV2WkFLYTA2VEVQdyt5OUgwWXpHTUFxYWphYVIwUGQrU1R4Wmt6SHZBOHh6OGw2c2sybFJhekF5QklaTXo5a2FGOUdPZEVFUT09CiAgICBzaXplOiA0MzM1ODU3MzYKcGF0aDogaHR0cHM6Ly9naXRodWIuY29tL2h1bWljLWxhYnMvZG5hZm9yZ2UtdXBkYXRlLW1pcnJvci9yZWxlYXNlcy9kb3dubG9hZC92MC44LjMvRE5BRm9yZ2UtU2V0dXAtMC44LjMuZXhlCnNoYTUxMjogVGRpNjJpdGJlUE1LWjVFdlpBS2EwNlRFUHcreTlIMFl6R01BcWFqYWFSMFBkK1NUeFprekh2QTh4ejhsNnNrMmxSYXpBeUJJWk16OWthRjlHT2RFRVE9PQpyZWxlYXNlRGF0ZTogMjAyNi0wOC0zMVQwNjowMjoyOC41NDZaCg==",
+      "sha256": "af4213926bd9e8c124cf29bd99424ceec7e49bcd78bb13c4bece2cc11ec55eed"
+    },
+    {
+      "path": "docs/updates/stable/x64/latest-mac.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjMKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLTAuOC4zLW1hYy56aXAKICAgIHNoYTUxMjogcXhyZ2tnTGdqejYrNDZtRkpiamtwQzJadTBlZDFNUXVnam1keUZ6YkxhN2ZsS3AvUXVBbFRkK0lFcmZWdDE0STZ1Tkw3VjJHTFVGQjY4V1VaaGg4VHc9PQogICAgc2l6ZTogNTQ1NzEyNjQzCnBhdGg6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLTAuOC4zLW1hYy56aXAKc2hhNTEyOiBxeHJna2dMZ2p6Nis0Nm1GSmJqa3BDMlp1MGVkMU1RdWdqbWR5RnpiTGE3ZmxLcC9RdUFsVGQrSUVyZlZ0MTRJNnVOTDdWMkdMVUZCNjhXVVpoaDhUdz09CnJlbGVhc2VEYXRlOiAyMDI2LTA4LTMxVDAyOjMwOjUyLjUwNVoK",
+      "sha256": "57c7a1fdd7a3b3b022f0ce9fe4244c6b6632e22000693a8a49c16f12ceb1ef1d"
+    },
+    {
+      "path": "docs/updates/stable/x64/latest.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjMKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC4zL0ROQUZvcmdlLVNldHVwLTAuOC4zLmV4ZQogICAgc2hhNTEyOiBUZGk2Mml0YmVQTUtaNUV2WkFLYTA2VEVQdyt5OUgwWXpHTUFxYWphYVIwUGQrU1R4Wmt6SHZBOHh6OGw2c2sybFJhekF5QklaTXo5a2FGOUdPZEVFUT09CiAgICBzaXplOiA0MzM1ODU3MzYKcGF0aDogaHR0cHM6Ly9naXRodWIuY29tL2h1bWljLWxhYnMvZG5hZm9yZ2UtdXBkYXRlLW1pcnJvci9yZWxlYXNlcy9kb3dubG9hZC92MC44LjMvRE5BRm9yZ2UtU2V0dXAtMC44LjMuZXhlCnNoYTUxMjogVGRpNjJpdGJlUE1LWjVFdlpBS2EwNlRFUHcreTlIMFl6R01BcWFqYWFSMFBkK1NUeFprekh2QTh4ejhsNnNrMmxSYXpBeUJJWk16OWthRjlHT2RFRVE9PQpyZWxlYXNlRGF0ZTogMjAyNi0wOC0zMVQwNjowMjoyOC41NDZaCg==",
+      "sha256": "af4213926bd9e8c124cf29bd99424ceec7e49bcd78bb13c4bece2cc11ec55eed"
+    }
+  ],
+  "candidateManifests": [
+    {
+      "path": "docs/updates/stable/arm64/latest-mac.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjUKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLTAuOC41LWFybTY0LW1hYy56aXAKICAgIHNoYTUxMjogbW9UODZLZElacElBRGdzVG8wYW82aHE2TWpCQlJ0WHB6VExTSEtKYmE5TjM4dWVaeFg1cjIzTFJUY2JpbGZHU0FldGJCOGQ0Uk5kQUVKdFVtazR0MGc9PQogICAgc2l6ZTogNTIxNDYyNzgxCnBhdGg6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLTAuOC41LWFybTY0LW1hYy56aXAKc2hhNTEyOiBtb1Q4NktkSVpwSUFEZ3NUbzBhbzZocTZNakJCUnRYcHpUTFNIS0piYTlOMzh1ZVp4WDVyMjNMUlRjYmlsZkdTQWV0YkI4ZDRSTmRBRUp0VW1rNHQwZz09CnJlbGVhc2VEYXRlOiAyMDI2LTA5LTAzVDA1OjM3OjAyLjIyNloKc3RhZ2luZ1BlcmNlbnRhZ2U6IDAKZG5hZm9yZ2VDaVJvbGxvdXRJZFNoYTI1NjogMmY5ZDJkODRmZDc2ZjdkMmRmNzU0MmYwYThkZDVjMjVmZDEwZjFkN2NhNWY5YTlkZGMzMDQyYzc0YTVkYzliZgo=",
+      "sha256": "c75ed70f566272338426fb1442ede0fb58871336d7bbbe7bd047134b57d5aaf4"
+    },
+    {
+      "path": "docs/updates/stable/arm64/latest.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjUKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLVNldHVwLTAuOC41LmV4ZQogICAgc2hhNTEyOiByT0UyWmVDK2Q1MUpNK1llWWpaQjJzTWloUjB1YWlFa2RmNUFvUnk2anhLaytBVGRuL2lkdWFxMTdqa3NROGJ0NHFPWC9UUnJzMXpGYWx0Wlh3dVg2dz09CiAgICBzaXplOiA0MzM5NDM3MjgKcGF0aDogaHR0cHM6Ly9naXRodWIuY29tL2h1bWljLWxhYnMvZG5hZm9yZ2UtdXBkYXRlLW1pcnJvci9yZWxlYXNlcy9kb3dubG9hZC92MC44LjUvRE5BRm9yZ2UtU2V0dXAtMC44LjUuZXhlCnNoYTUxMjogck9FMlplQytkNTFKTStZZVlqWkIyc01paFIwdWFpRWtkZjVBb1J5Nmp4S2srQVRkbi9pZHVhcTE3amtzUThidDRxT1gvVFJyczF6RmFsdFpYd3VYNnc9PQpyZWxlYXNlRGF0ZTogMjAyNi0wOS0wM1QwNzoyMjoyMy43NzdaCnN0YWdpbmdQZXJjZW50YWdlOiAwCmRuYWZvcmdlQ2lSb2xsb3V0SWRTaGEyNTY6IDJmOWQyZDg0ZmQ3NmY3ZDJkZjc1NDJmMGE4ZGQ1YzI1ZmQxMGYxZDdjYTVmOWE5ZGRjMzA0MmM3NGE1ZGM5YmYK",
+      "sha256": "0b636583f12cd3b28b5d651fde942b1a530c6def45e75e098bcd7a3e3f5a868b"
+    },
+    {
+      "path": "docs/updates/stable/x64/latest-mac.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjUKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLTAuOC41LW1hYy56aXAKICAgIHNoYTUxMjogRHBOWlJacGs0cC96S3YrRUZJSUVNdGRlUS9ORC9nOGQvM0JNcUprS0hFOXNnT2RSaTRReVhsL2JoN2NhQkZPR0ttUTd4cWdUa0hWUmMyZzlmd29ydUE9PQogICAgc2l6ZTogNTQ2MzYzMjY5CnBhdGg6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLTAuOC41LW1hYy56aXAKc2hhNTEyOiBEcE5aUlpwazRwL3pLditFRklJRU10ZGVRL05EL2c4ZC8zQk1xSmtLSEU5c2dPZFJpNFF5WGwvYmg3Y2FCRk9HS21RN3hxZ1RrSFZSYzJnOWZ3b3J1QT09CnJlbGVhc2VEYXRlOiAyMDI2LTA5LTAzVDA2OjAyOjIzLjYzNloKc3RhZ2luZ1BlcmNlbnRhZ2U6IDAKZG5hZm9yZ2VDaVJvbGxvdXRJZFNoYTI1NjogMmY5ZDJkODRmZDc2ZjdkMmRmNzU0MmYwYThkZDVjMjVmZDEwZjFkN2NhNWY5YTlkZGMzMDQyYzc0YTVkYzliZgo=",
+      "sha256": "8613667f448ebc091a150a5b304e0f202dea0cb68e707dbff143aa8b1dd77bc4"
+    },
+    {
+      "path": "docs/updates/stable/x64/latest.yml",
+      "exists": true,
+      "contentBase64": "dmVyc2lvbjogMC44LjUKZmlsZXM6CiAgLSB1cmw6IGh0dHBzOi8vZ2l0aHViLmNvbS9odW1pYy1sYWJzL2RuYWZvcmdlLXVwZGF0ZS1taXJyb3IvcmVsZWFzZXMvZG93bmxvYWQvdjAuOC41L0ROQUZvcmdlLVNldHVwLTAuOC41LmV4ZQogICAgc2hhNTEyOiByT0UyWmVDK2Q1MUpNK1llWWpaQjJzTWloUjB1YWlFa2RmNUFvUnk2anhLaytBVGRuL2lkdWFxMTdqa3NROGJ0NHFPWC9UUnJzMXpGYWx0Wlh3dVg2dz09CiAgICBzaXplOiA0MzM5NDM3MjgKcGF0aDogaHR0cHM6Ly9naXRodWIuY29tL2h1bWljLWxhYnMvZG5hZm9yZ2UtdXBkYXRlLW1pcnJvci9yZWxlYXNlcy9kb3dubG9hZC92MC44LjUvRE5BRm9yZ2UtU2V0dXAtMC44LjUuZXhlCnNoYTUxMjogck9FMlplQytkNTFKTStZZVlqWkIyc01paFIwdWFpRWtkZjVBb1J5Nmp4S2srQVRkbi9pZHVhcTE3amtzUThidDRxT1gvVFJyczF6RmFsdFpYd3VYNnc9PQpyZWxlYXNlRGF0ZTogMjAyNi0wOS0wM1QwNzoyMjoyMy43NzdaCnN0YWdpbmdQZXJjZW50YWdlOiAwCmRuYWZvcmdlQ2lSb2xsb3V0SWRTaGEyNTY6IDJmOWQyZDg0ZmQ3NmY3ZDJkZjc1NDJmMGE4ZGQ1YzI1ZmQxMGYxZDdjYTVmOWE5ZGRjMzA0MmM3NGE1ZGM5YmYK",
+      "sha256": "0b636583f12cd3b28b5d651fde942b1a530c6def45e75e098bcd7a3e3f5a868b"
+    }
+  ],
+  "bindingSha256": "f841762ade6fa77b759481b6f81de7f2156f7b7fb2834de63c78cb60c2b8ec05"
+}
