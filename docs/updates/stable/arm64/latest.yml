@@ -1,10 +1,8 @@
-version: 0.8.8
+version: 0.8.3
 files:
-  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.8/DNAForge-Setup-0.8.8.exe
-    sha512: acB4h5RkWaK0j+1MUxAeRMnV1xbi4i4+vQsbxtMBBdFjCZZQwGHRlvtAPUI/5RXPWhNEEgUS0GaVuHzTsrC72A==
-    size: 466115688
-path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.8/DNAForge-Setup-0.8.8.exe
-sha512: acB4h5RkWaK0j+1MUxAeRMnV1xbi4i4+vQsbxtMBBdFjCZZQwGHRlvtAPUI/5RXPWhNEEgUS0GaVuHzTsrC72A==
-releaseDate: 2026-09-07T00:46:45.790Z
-stagingPercentage: 0
-dnaforgeCiRolloutIdSha256: 92a36ee43a4bd9ec19cfc49eeba43d06f7c1dad7598dd0ec40e3b19219b9d62b
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.3/DNAForge-Setup-0.8.3.exe
+    sha512: Tdi62itbePMKZ5EvZAKa06TEPw+y9H0YzGMAqajaaR0Pd+STxZkzHvA8xz8l6sk2lRazAyBIZMz9kaF9GOdEEQ==
+    size: 433585736
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.3/DNAForge-Setup-0.8.3.exe
+sha512: Tdi62itbePMKZ5EvZAKa06TEPw+y9H0YzGMAqajaaR0Pd+STxZkzHvA8xz8l6sk2lRazAyBIZMz9kaF9GOdEEQ==
+releaseDate: 2026-08-31T06:02:28.546Z
