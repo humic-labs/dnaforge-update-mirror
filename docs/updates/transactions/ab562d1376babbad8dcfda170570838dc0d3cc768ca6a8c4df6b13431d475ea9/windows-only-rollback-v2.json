@@ -1,0 +1,12 @@
+{
+  "schema": "dnaforge.windows-only-primary-selector-rollback/v2",
+  "transaction": {
+    "transactionId": "ab562d1376babbad8dcfda170570838dc0d3cc768ca6a8c4df6b13431d475ea9",
+    "releaseId": "3ed07d9db2aa1d7b1ea4be6bfd915ff229f0a3228f568904516be9fd656b645d",
+    "artifactSetId": "49babe5a6a3a1aec4df99ecd8162b5cb48333de4758b6f81ac084e81d6abc728",
+    "kind": "production",
+    "predecessorStateDigest": "aaf97c1d64905e01649042141037fafb30505bcbad5a0f3402d2c69af8ccd4bd"
+  },
+  "fence": 3,
+  "intentId": "4f1936fe02b5312b43be1833e4c747caef38ebb04f872d3a6daa2655e11380f7"
+}
