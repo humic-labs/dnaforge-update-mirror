@@ -1,0 +1,11 @@
+{
+  "schema": "dnaforge.macos-emergency-primary-selector/v1",
+  "transaction": {
+    "transactionId": "bc105668c0fa382b680ea46b1a34181d402744fffe4786a76ad7ba6cb4e97098",
+    "releaseId": "cb1e8135f84b62fc93752d8d2b1418cb388ff88c6d3d4fa14b920489fe983bc7",
+    "artifactSetId": "18429431aec9d7d09eacfca0bd4e4b825148f04d9452f3abfd12f13e10e1a9ba",
+    "kind": "production"
+  },
+  "authorizationDigest": "c27d32628b1138c1bf4f8b8e664fd92909a91d5872610d3e4d03ffbc4863687c",
+  "desired": "candidate"
+}
