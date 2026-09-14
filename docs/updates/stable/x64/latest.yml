@@ -6,5 +6,3 @@ files:
 path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.11/DNAForge-Setup-0.8.11.exe
 sha512: 9Tx58IYJ8Uz75Smpst0nGscaI2pE4reBvq8KxYY3PB3Y0mOW0hekb4NAt3L/3bqQNecv0YJjbu5PNpRoxgVVZg==
 releaseDate: 2026-09-12T12:25:16.536Z
-stagingPercentage: 0
-dnaforgeCiRolloutIdSha256: 01bbf08a4884c07c7c0ee5f26aa8e38687961f63edd88dd9390fd4ddbd78017d
