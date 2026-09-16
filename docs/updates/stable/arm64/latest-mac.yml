@@ -6,5 +6,3 @@ files:
 path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.8.12/DNAForge-0.8.12-arm64-mac.zip
 sha512: /4IybwsAtNubxEKK7+kaZqxQIMQP3hzPZWSPCpWcVfwxNeegjcw+agmMdctv69IPhabVGJGqggrBOipQbfLpRg==
 releaseDate: 2026-09-16T01:05:09.880Z
-stagingPercentage: 0
-dnaforgeCiRolloutIdSha256: 868b6874b552e863b6ed82871bbd55b0d0bfe3a2ea6312cde15d62586b327ccb
