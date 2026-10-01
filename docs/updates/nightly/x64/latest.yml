@@ -1,8 +1,8 @@
-version: 0.9.8-nightly.36796132496
+version: 0.9.8-nightly.36796135379
 files:
-  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.8-nightly.36796132496/DNAForge-Setup-0.9.8-nightly.36796132496.exe
-    sha512: oUGZGMm3fPvGBlyVzYdLJHvWr2obqxUYlx9aaNiQxInV7C/HqyOkQ9pBHB3bznWkmuhuZhW76T2GPAXqRFcxtA==
-    size: 391293376
-path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.8-nightly.36796132496/DNAForge-Setup-0.9.8-nightly.36796132496.exe
-sha512: oUGZGMm3fPvGBlyVzYdLJHvWr2obqxUYlx9aaNiQxInV7C/HqyOkQ9pBHB3bznWkmuhuZhW76T2GPAXqRFcxtA==
-releaseDate: 2026-10-01T01:01:10.044Z
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.8-nightly.36796135379/DNAForge-Setup-0.9.8-nightly.36796135379.exe
+    sha512: ctxARPJ8506Ehny7Up4XXn51SNqzbvjdt9DNGQkihppc3kGiiuxvQqK0jAOkLACmUB4/sgl0lVSQyhVYn9N0yA==
+    size: 394148848
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.8-nightly.36796135379/DNAForge-Setup-0.9.8-nightly.36796135379.exe
+sha512: ctxARPJ8506Ehny7Up4XXn51SNqzbvjdt9DNGQkihppc3kGiiuxvQqK0jAOkLACmUB4/sgl0lVSQyhVYn9N0yA==
+releaseDate: 2026-10-01T01:49:10.230Z
