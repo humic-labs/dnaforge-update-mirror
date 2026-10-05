@@ -1,8 +1,8 @@
-version: 0.9.7
+version: 0.9.9
 files:
-  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.7/DNAForge-0.9.7-arm64-mac.zip
-    sha512: f3XQ7P8W4DeJywA/KTgLxSU9z3czrCEqQOqnzuXAROFRuw3LVpTVuJD5Wyy8ewvVp54c7igvhnSYn/GJXkiQFA==
-    size: 460025423
-path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.7/DNAForge-0.9.7-arm64-mac.zip
-sha512: f3XQ7P8W4DeJywA/KTgLxSU9z3czrCEqQOqnzuXAROFRuw3LVpTVuJD5Wyy8ewvVp54c7igvhnSYn/GJXkiQFA==
-releaseDate: 2026-09-27T21:32:18.631Z
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.9/DNAForge-0.9.9-arm64-mac.zip
+    sha512: 0co25dNwTHwUQnpuKW6e+9KLsN84Jt22da29/s7Y/1GfnUsECP4D412ll4NdFAavGME7c7H1JgDWcQsCatcDxA==
+    size: 461052710
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.9/DNAForge-0.9.9-arm64-mac.zip
+sha512: 0co25dNwTHwUQnpuKW6e+9KLsN84Jt22da29/s7Y/1GfnUsECP4D412ll4NdFAavGME7c7H1JgDWcQsCatcDxA==
+releaseDate: 2026-10-05T18:14:05.451Z
