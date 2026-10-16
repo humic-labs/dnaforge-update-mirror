@@ -1,8 +1,8 @@
-version: 0.9.13
+version: 0.9.14
 files:
-  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.13/DNAForge-Setup-0.9.13.exe
-    sha512: 3fpH6vecWfjDspqpp5M5l3bi6JlxZWPxViLQ3k3w8TyMyFGX9Lrblhc6RBAYAgVoj/mRlpf9zxukZKfz0fmj7w==
-    size: 405276424
-path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.13/DNAForge-Setup-0.9.13.exe
-sha512: 3fpH6vecWfjDspqpp5M5l3bi6JlxZWPxViLQ3k3w8TyMyFGX9Lrblhc6RBAYAgVoj/mRlpf9zxukZKfz0fmj7w==
-releaseDate: 2026-10-13T12:51:01.367Z
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.14/DNAForge-Setup-0.9.14.exe
+    sha512: vEx9L/x9swgRcHfrj3QVRW69W9KMsqR7di/xTLl4IdkexguOTHN+7MTOr8VqyPzuGIOY8iWs4fapW9V7/hWtxg==
+    size: 405431680
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.14/DNAForge-Setup-0.9.14.exe
+sha512: vEx9L/x9swgRcHfrj3QVRW69W9KMsqR7di/xTLl4IdkexguOTHN+7MTOr8VqyPzuGIOY8iWs4fapW9V7/hWtxg==
+releaseDate: 2026-10-15T07:31:52.568Z
