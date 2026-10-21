@@ -1,8 +1,8 @@
-version: 0.9.15-nightly.39514646911
+version: 0.9.15-nightly.39562960241
 files:
-  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.15-nightly.39514646911/DNAForge-0.9.15-nightly.39514646911-mac.zip
-    sha512: IK/5kh1d2Z0mtbEcJsDukVDd7H6NHAVu6MQN5gi5Ko/t6Xvkv9FS4S2/uiX4TOd5A8rAFWGp0ILOsRIpZc3mpQ==
-    size: 510056895
-path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.15-nightly.39514646911/DNAForge-0.9.15-nightly.39514646911-mac.zip
-sha512: IK/5kh1d2Z0mtbEcJsDukVDd7H6NHAVu6MQN5gi5Ko/t6Xvkv9FS4S2/uiX4TOd5A8rAFWGp0ILOsRIpZc3mpQ==
-releaseDate: 2026-10-20T23:50:35.670Z
+  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.15-nightly.39562960241/DNAForge-0.9.15-nightly.39562960241-mac.zip
+    sha512: 3tenIal9X7K9EnzR+LaWtSPxxGKILC8IJ6f1uFezxro/HlaNWncBZdorGhVsaWqMrplNy3FO2HLQBXlJ0OmyXg==
+    size: 510055644
+path: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.15-nightly.39562960241/DNAForge-0.9.15-nightly.39562960241-mac.zip
+sha512: 3tenIal9X7K9EnzR+LaWtSPxxGKILC8IJ6f1uFezxro/HlaNWncBZdorGhVsaWqMrplNy3FO2HLQBXlJ0OmyXg==
+releaseDate: 2026-10-21T08:14:18.853Z
