@@ -1,0 +1,175 @@
+{
+  "schema": "dnaforge.native-release.v1",
+  "id": "43154357236-1",
+  "controllerRunId": "43154357236",
+  "controllerSha": "53cb0d08bdb76869a0b9512f407b65045ed15bb3",
+  "attempt": "1",
+  "buildRunId": "43154357236",
+  "version": "0.9.23",
+  "applicationSourceSha": "53cb0d08bdb76869a0b9512f407b65045ed15bb3",
+  "artifacts": {
+    "macos-arm64": {
+      "name": "desktop-macos-arm64-0.9.23",
+      "apiDigest": "fa619d0e4c6f9d18c8d509235adf6cb11c2eceec4fb841f1899a6e3d3e31e82e",
+      "id": 13916103633
+    },
+    "macos-x64": {
+      "name": "desktop-macos-x64-0.9.23",
+      "apiDigest": "eabbdbf42a4b0f6ae7b2aa8d4a1f89866fe207cbca864489601b0fad925026ca",
+      "id": 13916763748
+    },
+    "windows-x64": {
+      "name": "desktop-windows-x64-0.9.23",
+      "apiDigest": "9c54feba1dae93207360aae4306252e35840c000b68d689fd12dc8eda232a8c7",
+      "id": 13916272075
+    }
+  },
+  "payloads": [
+    {
+      "name": "DNAForge-0.9.23-arm64.dmg",
+      "sha256": "70e654f1d97a844ec872f071bab08a653248540806bc08a6f9f0a7d4270a7d6a",
+      "size": 583252991
+    },
+    {
+      "name": "DNAForge-0.9.23-arm64-mac.zip",
+      "sha256": "53d86fac65da658eb0ddb48c9eaa0294b9fc8528764adec863bc61de2db5539e",
+      "size": 516140796
+    },
+    {
+      "name": "DNAForge-0.9.23-arm64-mac.zip.blockmap",
+      "sha256": "62bec0dc6e83349cd7764e8eec7d67fc81a918feadab9b3fa2e6956c24d1d5b7",
+      "size": 538534
+    },
+    {
+      "name": "DNAForge-0.9.23.dmg",
+      "sha256": "250dfabbcaf78195a62981461559cb38897c31587baf9ae22a76d06bb62800cb",
+      "size": 618364511
+    },
+    {
+      "name": "DNAForge-0.9.23-mac.zip",
+      "sha256": "c37c13ccccda804c27254df3ec0c2b0bf380fc7c63a1f31992f67acf742ed5e8",
+      "size": 551437294
+    },
+    {
+      "name": "DNAForge-0.9.23-mac.zip.blockmap",
+      "sha256": "0205e910cbf0293334501172281520e9933c22a77577ee7c2307e94b94cf5ee4",
+      "size": 574007
+    },
+    {
+      "name": "DNAForge-Setup-0.9.23.exe",
+      "sha256": "98cc9341d6665a6780113ed68d77d44bd4809b9fadfc05de916113162c50948c",
+      "size": 428680920
+    },
+    {
+      "name": "DNAForge-Setup-0.9.23.exe.blockmap",
+      "sha256": "ce7443eefb0d506066cdfa94642a80d0493b4eec3032846ddd0ea4c193a0bfe3",
+      "size": 444398
+    }
+  ],
+  "previous": {
+    "r2": {
+      "humic/updates/stable/arm64/latest-mac.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-0.9.22-arm64-mac.zip\n    sha512: 1OtF5dO3Ryia2XGYbRUiDy4saGLJLNCgshtdU5248SrE9GDQ9tspi8GzN3AWKUe1GtABf4zRiq5wF37Qx1fA7Q==\n    size: 516223636\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-0.9.22-arm64-mac.zip\nsha512: 1OtF5dO3Ryia2XGYbRUiDy4saGLJLNCgshtdU5248SrE9GDQ9tspi8GzN3AWKUe1GtABf4zRiq5wF37Qx1fA7Q==\nreleaseDate: 2026-11-10T23:21:07.047Z\n",
+        "etag": "\"c8c8e8c8d0ede6d2bc5eb62d77791931\""
+      },
+      "humic/updates/stable/x64/latest-mac.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-0.9.22-mac.zip\n    sha512: DEyxgWUo6PsAhHbSFAi/NasV2A6S/IaxzFNqapPjJJ6jwUxAuy54PS/+LoRnkEtAyAozKEGrcOK8eyA+mnssXA==\n    size: 551510888\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-0.9.22-mac.zip\nsha512: DEyxgWUo6PsAhHbSFAi/NasV2A6S/IaxzFNqapPjJJ6jwUxAuy54PS/+LoRnkEtAyAozKEGrcOK8eyA+mnssXA==\nreleaseDate: 2026-11-11T00:16:52.670Z\n",
+        "etag": "\"d26dbc88071f85ea9e21527f3186d919\""
+      },
+      "humic/updates/stable/arm64/latest.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+        "etag": "\"381b914d60cf1dcc2f4cd445e3ef29ca\""
+      },
+      "humic/updates/stable/x64/latest.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+        "etag": "\"381b914d60cf1dcc2f4cd445e3ef29ca\""
+      },
+      "updates/stable/arm64/latest.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+        "etag": "\"381b914d60cf1dcc2f4cd445e3ef29ca\""
+      },
+      "updates/stable/x64/latest.yml": {
+        "text": "version: 0.9.22\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://downloads.dnaforge.com/desktop/0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+        "etag": "\"381b914d60cf1dcc2f4cd445e3ef29ca\""
+      },
+      "stable/latest.json": {
+        "text": "{\n  \"version\": \"0.9.22\",\n  \"publishedAt\": \"2026-11-11T00:59:10.590Z\",\n  \"files\": {\n    \"DNAForge-0.9.22-arm64.dmg\": {\n      \"key\": \"desktop/0.9.22/DNAForge-0.9.22-arm64.dmg\",\n      \"sha256\": \"4e20384d6539c59b49a5aa5636acca959d0a92009159d2eeba9b1790a9bcea2f\",\n      \"size\": 583051381\n    },\n    \"DNAForge-0.9.22-x64.dmg\": {\n      \"key\": \"desktop/0.9.22/DNAForge-0.9.22.dmg\",\n      \"sha256\": \"095cc53a4b5ee8cbc1ef88140ac47ead84a021a7a29b309c5831a9791a956f3d\",\n      \"size\": 624140662\n    },\n    \"DNAForge-Setup-0.9.22.exe\": {\n      \"key\": \"desktop/0.9.22/DNAForge-Setup-0.9.22.exe\",\n      \"sha256\": \"7943975bbaf903db4a84077e13184b72963be6e1a8612eb31f4e7c7a6020020e\",\n      \"size\": 428691000\n    }\n  }\n}\n",
+        "etag": "\"58dff32ab0757af9062aa98785f0d4fc\""
+      }
+    },
+    "mirror": {
+      "humic/updates/stable/arm64/latest-mac.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-0.9.22-arm64-mac.zip\n    sha512: 1OtF5dO3Ryia2XGYbRUiDy4saGLJLNCgshtdU5248SrE9GDQ9tspi8GzN3AWKUe1GtABf4zRiq5wF37Qx1fA7Q==\n    size: 516223636\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-0.9.22-arm64-mac.zip\nsha512: 1OtF5dO3Ryia2XGYbRUiDy4saGLJLNCgshtdU5248SrE9GDQ9tspi8GzN3AWKUe1GtABf4zRiq5wF37Qx1fA7Q==\nreleaseDate: 2026-11-10T23:21:07.047Z\n",
+      "humic/updates/stable/x64/latest-mac.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-0.9.22-mac.zip\n    sha512: DEyxgWUo6PsAhHbSFAi/NasV2A6S/IaxzFNqapPjJJ6jwUxAuy54PS/+LoRnkEtAyAozKEGrcOK8eyA+mnssXA==\n    size: 551510888\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-0.9.22-mac.zip\nsha512: DEyxgWUo6PsAhHbSFAi/NasV2A6S/IaxzFNqapPjJJ6jwUxAuy54PS/+LoRnkEtAyAozKEGrcOK8eyA+mnssXA==\nreleaseDate: 2026-11-11T00:16:52.670Z\n",
+      "humic/updates/stable/arm64/latest.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+      "humic/updates/stable/x64/latest.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+      "updates/stable/arm64/latest.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n",
+      "updates/stable/x64/latest.yml": "version: 0.9.22\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\n    sha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\n    size: 428691000\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.22/DNAForge-Setup-0.9.22.exe\nsha512: b7I4RlrBqPjotCNjW6mUGly9dd9sDKNsAUbTgyh8dIk08uKuzsmBQdKCqeVRsLdJJLBOIf7P6keHe5LywAF2Gw==\nreleaseDate: 2026-11-10T23:28:49.215Z\n"
+    }
+  },
+  "production": {
+    "r2": {
+      "humic/updates/stable/arm64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-arm64-mac.zip\n    sha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\n    size: 516140796\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-arm64-mac.zip\nsha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\nreleaseDate: 2026-11-12T04:41:35.453Z\n",
+      "humic/updates/stable/x64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-mac.zip\n    sha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\n    size: 551437294\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-mac.zip\nsha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\nreleaseDate: 2026-11-12T05:01:13.616Z\n",
+      "humic/updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "humic/updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "stable/latest.json": "{\n  \"version\": \"0.9.23\",\n  \"publishedAt\": \"2026-11-12T05:27:35.721Z\",\n  \"files\": {\n    \"DNAForge-0.9.23-arm64.dmg\": {\n      \"key\": \"desktop/0.9.23/DNAForge-0.9.23-arm64.dmg\",\n      \"sha256\": \"70e654f1d97a844ec872f071bab08a653248540806bc08a6f9f0a7d4270a7d6a\",\n      \"size\": 583252991\n    },\n    \"DNAForge-0.9.23-x64.dmg\": {\n      \"key\": \"desktop/0.9.23/DNAForge-0.9.23.dmg\",\n      \"sha256\": \"250dfabbcaf78195a62981461559cb38897c31587baf9ae22a76d06bb62800cb\",\n      \"size\": 618364511\n    },\n    \"DNAForge-Setup-0.9.23.exe\": {\n      \"key\": \"desktop/0.9.23/DNAForge-Setup-0.9.23.exe\",\n      \"sha256\": \"98cc9341d6665a6780113ed68d77d44bd4809b9fadfc05de916113162c50948c\",\n      \"size\": 428680920\n    }\n  }\n}\n"
+    },
+    "mirror": {
+      "humic/updates/stable/arm64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-arm64-mac.zip\n    sha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\n    size: 516140796\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-arm64-mac.zip\nsha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\nreleaseDate: 2026-11-12T04:41:35.453Z\n",
+      "humic/updates/stable/x64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-mac.zip\n    sha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\n    size: 551437294\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-mac.zip\nsha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\nreleaseDate: 2026-11-12T05:01:13.616Z\n",
+      "humic/updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "humic/updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n",
+      "updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\n"
+    }
+  },
+  "fallback": "https://downloads.dnaforge.com",
+  "approval": {
+    "schema": "waypoint.desktop-release-approval/v1",
+    "sourceRunId": "43154357236",
+    "sourceSha": "53cb0d08bdb76869a0b9512f407b65045ed15bb3",
+    "tag": "v0.9.23",
+    "candidateVersion": "0.9.23",
+    "sourceRunUrl": "https://github.com/humic-labs/dnaforge/actions/runs/43154357236",
+    "draftReleaseUrl": "https://github.com/humic-labs/dnaforge/actions/runs/43154357236#artifacts",
+    "releaseNotesMarkdown": "# DNAForge v0.9.23\n\n## Highlights\n\n- Quit and restart without saving after a document edit fails.\n\n## Fixed\n\n- Discarding changes no longer gets trapped behind an earlier editing error.\n- Restored documents wait for their workspace to be ready before loading.\n- Closing a saved Track View no longer sends changes to an unrelated sequence document.\n",
+    "releaseNotesSha256": "f1a45dda8ceb3d1b9ff639b30df80e95cc03380765ff33cb5b2e4accc153f338",
+    "artifacts": {
+      "macArm64": {
+        "name": "desktop-macos-arm64-0.9.23",
+        "apiDigest": "fa619d0e4c6f9d18c8d509235adf6cb11c2eceec4fb841f1899a6e3d3e31e82e",
+        "id": 13916103633
+      },
+      "macX64": {
+        "name": "desktop-macos-x64-0.9.23",
+        "apiDigest": "eabbdbf42a4b0f6ae7b2aa8d4a1f89866fe207cbca864489601b0fad925026ca",
+        "id": 13916763748
+      },
+      "windowsX64": {
+        "name": "desktop-windows-x64-0.9.23",
+        "apiDigest": "9c54feba1dae93207360aae4306252e35840c000b68d689fd12dc8eda232a8c7",
+        "id": 13916272075
+      }
+    },
+    "bindingSha256": "32510ad0d30fa50a707288a8ff5d24a4eee59ac04b17eb564184e8228bd9558e"
+  },
+  "planBinding": "5dcd2501afbf9cfe67ce8eb855329338764e4dbe8f4d4e3281865c059fd38978",
+  "rolloutIdSha256": "33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b",
+  "canary": {
+    "r2": {
+      "humic/updates/stable/arm64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-arm64-mac.zip\n    sha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\n    size: 516140796\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-arm64-mac.zip\nsha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\nreleaseDate: 2026-11-12T04:41:35.453Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/x64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-mac.zip\n    sha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\n    size: 551437294\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-0.9.23-mac.zip\nsha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\nreleaseDate: 2026-11-12T05:01:13.616Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://downloads.dnaforge.com/desktop/0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n"
+    },
+    "mirror": {
+      "humic/updates/stable/arm64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-arm64-mac.zip\n    sha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\n    size: 516140796\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-arm64-mac.zip\nsha512: zpd/TGz4RXg4+SzmJx1oEzaUzSpdDZVT56zj0s1x1rT6VGCzzZUDlvRYQSArK30gFF+yttHWjg0jlSjTS8Magg==\nreleaseDate: 2026-11-12T04:41:35.453Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/x64/latest-mac.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-mac.zip\n    sha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\n    size: 551437294\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-0.9.23-mac.zip\nsha512: LTecJRaL1pvBqWM012H4hjjUWJ7paKIuSOpmtXJPembnlURzyz2PqXrzSiiHpvcvD7t3RO9WrWjqEruo/kDzFw==\nreleaseDate: 2026-11-12T05:01:13.616Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/arm64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n",
+      "humic/updates/stable/x64/latest.yml": "version: 0.9.23\nfiles:\n  - url: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\n    sha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\n    size: 428680920\npath: https://github.com/humic-labs/dnaforge-update-mirror/releases/download/v0.9.23/DNAForge-Setup-0.9.23.exe\nsha512: ROX1MveUEjLH/M3nXyV05QqdjTZVNCZguc8P6iMB1Vtoz4wrzvQH1elzh51Myc7nfw5pHnXixvzqCEtyOaagwA==\nreleaseDate: 2026-11-12T04:43:13.904Z\nstagingPercentage: 0\ndnaforgeCiRolloutIdSha256: 33f49f125b4f88b9963f3ed632aea69784237ca5a61564e620362df7e387267b\n"
+    }
+  },
+  "bindingSha256": "5905b5dea24bb2164c770e0e24cd5c1b65b99c92984fd80bc0d49596657746a1"
+}
